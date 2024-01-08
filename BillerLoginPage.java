@@ -25,7 +25,7 @@ public class BillerLoginPage extends BasePage {
 	@FindBy(xpath = EdaatOR.LoginPage_Username)
 	public WebElement Username;
 
-	public boolean Exists() {
+	public boolean Exists3() {
 		return super.Exists(Username);
 	}
 
