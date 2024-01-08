@@ -28,7 +28,7 @@ public class BillerLoginPage extends BasePage {
 	public boolean Exists() {
 		return super.Exists(Username);
 	}
-	public boolean Exists1() {
+	public boolean Exists2() {
 		return super.Exists(Username);
 	}
 	public void ExistsCheckElement(String Main) throws InterruptedException {
