@@ -25,10 +25,10 @@ public class BillerLoginPage extends BasePage {
 	@FindBy(xpath = EdaatOR.LoginPage_Username)
 	public WebElement Username;
 
-	public boolean Exists() {
+	public boolean Exists45() {
 		return super.Exists(Username);
 	}
-	public boolean Exists1() {
+	public boolean Exists2() {
 		return super.Exists(Username);
 	}
 	public void ExistsCheckElement(String Main) throws InterruptedException {
